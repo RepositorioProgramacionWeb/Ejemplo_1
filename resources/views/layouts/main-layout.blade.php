@@ -3,31 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Cardinal Asistence System</title>
-    <style>
-        /* Estilos para el menú de navegación */
-        ul.navbar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333; /* Fondo del menú */
-        }
 
-        li.navitem {
-            float: left;
-        }
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}"/>
 
-        li.navitem a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li.navitem a:hover {
-            background-color: #555; /* Color de fondo al pasar el cursor */
-        }
     </style>
 </head>
 <body>
