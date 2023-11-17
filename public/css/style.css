@@ -1,12 +1,53 @@
-body{
-    font-size: 50px;
-}
-
-#Boton{
-    border: 1em solid blue;
-    border-radius: 20%;
-    margin: 5em 0em;
-    padding: 2em;
-    font-size: 10px;
-    text-decoration: line-through;
-}
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  }
+  
+  /* Estilo para el encabezado */
+  header {
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Relleno de 20 píxeles en todos los lados */
+    text-align: center;
+  }
+  
+  /* Estilo para la barra de navegación */
+  #navbar {
+    background-color: #444; /* Fondo gris más oscuro */
+    padding: 10px; /* Relleno de 10 píxeles en todos los lados */
+  }
+  
+  .navbar {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .navitem {
+    display: inline-block;
+    margin: 0 15px; /* Márgenes horizontales de 15 píxeles */
+  }
+  
+  /* Estilo para los enlaces de navegación */
+  .navitem a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+    font-size: 18px; /* Tamaño de fuente de 18 píxeles */
+  }
+  
+  /* Estilo para el contenido */
+  .content {
+    margin: 20px; /* Márgenes de 20 píxeles en todos los lados */
+    padding: 15px; /* Relleno de 15 píxeles en todos los lados */
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 10px; /* Relleno de 10 píxeles en todos los lados */
+  }
