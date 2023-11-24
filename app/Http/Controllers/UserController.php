@@ -12,6 +12,10 @@ class UserController extends Controller
     public function index()
     {
         //
+        //dd('Sistemas');
+        $users=Users::get();
+        return view('Users.index',$users)
+        //dd('$users');
     }
 
     /**
