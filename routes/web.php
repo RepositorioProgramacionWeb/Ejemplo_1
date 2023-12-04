@@ -19,7 +19,7 @@ Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/users', [App\Http\Controllers\UserController::class, 'index'])->name('users.index');
+//Route::get('/users', [App\Http\Controllers\UserController::class, 'index'])->name('users.index');
 
-
+Route::get('/admin', 'UserController@index')->name('admin.users.index');
 

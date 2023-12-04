@@ -14,8 +14,9 @@ class UserController extends Controller
         //
         //dd('Sistemas');
         $users=Users::get();
-        return view('Users.index',$users)
+        //return view('Users.index',$users);
         //dd('$users');
+        return view('Users.index', compact('usars'));
     }
 
     /**
